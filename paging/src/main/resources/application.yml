@@ -1,0 +1,21 @@
+server:
+  port: 8082
+  tomcat:
+    uri-encoding: UTF-8
+
+spring:
+  application:
+    name: paging
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/dbname?characterEncoding=UTF-8
+    username:
+    password:
+    driver-class-name: org.postgresql.Driver
+
+
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
